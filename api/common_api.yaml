@@ -96,6 +96,7 @@ paths:
           application/json:
             schema:
               $ref: '#/components/schemas/tesTask'
+            
         required: true
       responses:
         "200":
@@ -202,10 +203,6 @@ paths:
       requestBody:
         content:
           application/json:
-            schema:
-              type: object
-              properties: {}
-          application/xml:
             schema:
               $ref: '#/components/schemas/tesTask'
       responses:
