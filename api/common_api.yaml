@@ -168,7 +168,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/tesTask'
 
-  /tasks/{id}/cancel:
+  /tasks/{task_id}/cancel:
     post:
       tags:
       - Tasks API
